@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 10;
+
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #32689e;
+    color: white;
+    border-radius: 20px;
+
+}
+
+#h1header {
+    text-align: center;
+    font-size: 2em;
+
+}
+
+header>nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header>nav>a {
+    background-color: #534942;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+
+}
+
+header>nav>a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
