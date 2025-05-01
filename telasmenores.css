@@ -1,0 +1,133 @@
+/* */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+
+/*Menu e Logo*/
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    margin: auto;
+
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #0042bd;
+    text-align: center;
+}
+
+.logo>a {
+    text-decoration: none;
+    color: #0042bd;
+    font-size: 2em;
+    text-shadow: 3px 3px 3px #6c9fff;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+nav>ul>li>a:hover {
+    border: 1px solid #0042bd;
+    padding: 6px;
+    background-color: #0042bd;
+}
+
+/* Main */
+
+.section1a {
+    background-image: url(fotos/homenmalhando.png);
+    background-attachment: local;
+    background-size: 900px 300px;
+    background-position: center;
+    height: 200px;
+    max-width: 1000px;
+    padding: 40px 20px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+.section1 {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #0042bd;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    height: 200px;
+}
+
+.section1>h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.section2 {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    height: 200px;
+}
+
+.section p {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #111;
+    color: #ccc;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+#teste {
+    height: 200px;
+    width: 400px;
+    background-color: red;
+}
+
+/*Planos */
+#divplanos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 50px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.planositem {
+    background-color: #0042bd;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
