@@ -41,18 +41,16 @@ nav ul {
     flex-wrap: row wrap;
     justify-content: space-around;
     list-style: none;
-    gap: 20px;
+    gap: 13px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-weight: 500;
 }
 
 nav>ul>li>a:hover {
-    border: 1px solid #0042bd;
-    padding: 6px;
+    padding: 5px;
     background-color: #0042bd;
 }
 
@@ -77,42 +75,35 @@ nav>ul>li>a:hover {
     padding: 40px 20px;
     max-width: 1000px;
     margin: auto;
-    background-color: #0042bd;
+    background-color: #000000;
     color: white;
     text-shadow: 1px 1px 1px black;
     height: 200px;
 }
 
-.section1>h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
 .section2 {
+    background-color: #0042bd;
     padding: 40px 20px;
     max-width: 1000px;
     margin: auto;
     height: 200px;
+    color: white;
 }
 
 .section p {
     font-size: 16px;
 }
 
-footer {
-    background-color: #111;
-    color: #ccc;
-    padding: 30px 20px;
+/*Planos */
+#planostexto{
+    background-color: #0042bd;
+}
+#planostexto>h1{
     text-align: center;
 }
-
-#teste {
-    height: 200px;
-    width: 400px;
-    background-color: red;
+#planostexto>p{
+    text-align: justify;
 }
-
-/*Planos */
 #divplanos {
     display: flex;
     flex-flow: row wrap;
@@ -130,4 +121,12 @@ footer {
     height: 200px;
     width: 200px;
     padding: 20px;
+}
+
+/*footer */
+footer {
+    background-color: #111;
+    color: #ccc;
+    padding: 30px 20px;
+    text-align: center;
 }
