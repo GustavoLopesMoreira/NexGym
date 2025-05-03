@@ -1,0 +1,282 @@
+/* */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkgray;
+}
+
+/* Header */
+
+header {
+    background-color: #000;
+}
+
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 3px 3px 3px #6c9fff;
+}
+
+.logo>a {
+    color: #0042bd;
+    text-decoration: none;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+nav ul li a {
+    font-family: ;
+    font-size: ;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav>ul>li>a:hover {
+    background-color: #0042bd;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* Main */
+
+#bem-vindo {
+    background-image: url(fotos/homenmalhando.png);
+    background-attachment: local;
+    background-size: 900px 300px;
+    background-position: center;
+    height: 200px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.section1 {
+    background-color: #0042bd;
+    height: 200px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.section2 {
+    background-color: #000;
+    height: 200px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Planos */
+
+#planos {
+    background-color: #0042bd;
+}
+
+#planos>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#planos>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+    text-align: justify;
+    padding: 10px;
+}
+
+#divplanos {
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    gap: 50px;
+    border-radius: 20px;
+}
+
+.itemplanos {
+    background-color: #0042bd;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+/* Atividades */
+
+#horarios {
+    background-color: #0042bd;
+}
+
+#horarios>h1 {
+    font-family: ;
+    font-size: ;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#horarios>p {
+    font-family: ;
+    font-size: ;
+    color: #fff;
+    text-align: justify;
+    padding: 10px;
+}
+
+#divatividades {
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    gap: 50px;
+    border-radius: 20px;
+}
+
+.itematividade {
+    background-color: #0042bd;
+    height: 200px;
+    width: 200px;
+}
+
+/* serviços */
+
+#servicos {
+    background-color: #0042bd;
+}
+
+#servicos>h1 {
+    font-family: ;
+    font-size: ;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#servicos>p {
+    font-family: ;
+    font-size: ;
+    color: #fff;
+    text-align: justify;
+    padding: 10px;
+}
+
+#divservico {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    margin: 20px 20px;
+    gap: 50px;
+}
+
+.itemservico {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+/* unidades */
+
+#unidades {
+    background-color: #0042bd;
+}
+
+#unidades>h1 {
+    font-family: ;
+    font-size: ;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#unidades>p {
+    font-family: ;
+    font-size: ;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#divunidades {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px 20px;
+    gap: 50px;
+}
+
+.itemunidades {
+    background-color: #0042bd;
+    height: 400px;
+    width: 600px;
+}
+
+/* contatos */
+
+#contato {
+    background-color: #0042bd;
+}
+
+#contato>h1 {
+    font-family: ;
+    font-size: ;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#contato>p {
+    font-family: ;
+    font-size: ;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/*footer */
+
+footer {
+    background-color: #111;
+    font-family: ;
+    font-size: ;
+    color: #ccc;
+    text-align: center;
+    padding: 30px 20px;
+}
