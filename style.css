@@ -4,26 +4,35 @@
     padding: 0;
 }
 
+:root {
+    --azul: #106fa7
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(202, 202, 202);
 }
 
 /* Header */
 
 header {
-    background-color: #000;
+    background-image: linear-gradient(to left, black, rgb(94, 94, 94));
+    border-radius: 20px;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 8px;
+
 }
 
 .logo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 70px;
     text-align: center;
-    text-shadow: 3px 3px 3px #5c95ff;
+    text-shadow: 3px 3px 3px #000000;
 }
 
 .logo>a {
-    color: #1a489e;
+    color: var(--azul);
     text-decoration: none;
 }
 
@@ -41,13 +50,13 @@ nav>ul {
 
 nav>ul>li>a {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: ;
+    font-size: 1em;
     color: #fff;
     text-decoration: none;
 }
 
 nav>ul>li>a:hover {
-    background-color: #1a489e;
+    background-color: var(--azul);
     border-radius: 10px;
     padding: 5px;
 }
@@ -81,8 +90,12 @@ nav>ul>li>a:hover {
     text-align: center;
 }
 
+#bem-vindo:hover{
+    border: 2px solid var(--azul);
+}
+
 .section1 {
-    background-color: #1a489e;
+    background-color: var(--azul);
     display: flex;
     flex-direction: column;
     max-width: 1000px;
@@ -95,53 +108,55 @@ nav>ul>li>a:hover {
 .section1>h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
-    color: #fff ;
-    text-align: justify ;
+    color: #fff;
+    text-align: justify;
     padding: 20px
 }
 
 .section1>p {
-    font-family: Arial, Helvetica, sans-serif ;
-    font-size: 1.5em ;
-    color: #fff ;
-    text-align: justify ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: justify;
 }
 
+.section1:hover{
+    border: 2px solid black;
+}
 .section2 {
-    background-color: #000;
+    background-color: #0c0c0c;
     display: flex;
     flex-direction: column;
-    height: 200px;
     max-width: 1000px;
     margin: auto;
     margin-top: 20px;
     padding: 40px 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    color: white;
-    text-shadow: 1px 1px 1px black;
     border-radius: 20px;
 }
 
 .section2>h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    color: #fff ;
-    text-align: justify ;
+    font-size: 2em;
+    color: #fff;
+    text-align: justify;
     padding: 20px
 }
 
 .section2>p {
-    font-family: Arial, Helvetica, sans-serif ;
-    font-size: 0.7em ;
-    color: #fff ;
-    text-align: justify ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    text-align: justify;
+}
+
+.section2:hover{
+    border: 2px solid var(--azul);
 }
 
 /* Planos */
 
 #planos {
-    background-color: #1a489e;
+    background-color: var(--azul);
     max-width: 1200px;
     margin: auto;
     margin-top: 15px;
@@ -166,7 +181,7 @@ nav>ul>li>a:hover {
 }
 
 #divplanos {
-    background-color: #070707;
+    background-image: linear-gradient(to bottom, black, rgb(63, 63, 63), black);
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -179,25 +194,31 @@ nav>ul>li>a:hover {
 }
 
 .itemplanos {
-    background-color: #1a489e;
-    height: 200px;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    flex-flow: column;
     width: 200px;
     padding: 20px;
     transition: transform 0.3s ease;
-    border-radius: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .itemplanos>h1 {
+    background-color: var(--azul);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
+    padding: 5px;
 }
 
 .itemplanos>ul>li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    color: #fff
+    color: #000000;
+    padding: 3px;
+    padding-top: 7px;
 }
 
 .itemplanos>p {
@@ -205,17 +226,18 @@ nav>ul>li>a:hover {
     font-size: 1.4em;
     color: goldenrod;
     text-align: center;
+    padding-top: 20px;
 }
 
 .itemplanos:hover {
     transform: translateY(-5px);
-    box-shadow: 5px 5px 5px #003392;
+    box-shadow: 5px 5px 5px #000000;
 }
 
 /* Atividades */
 
 #horarios {
-    background-color: #0042bd;
+    background-color: var(--azul);
 }
 
 #horarios>h1 {
@@ -247,7 +269,6 @@ nav>ul>li>a:hover {
 }
 
 .itematividade {
-    background-color: #0042bd;
     height: 200px;
     width: 200px;
 }
@@ -255,7 +276,7 @@ nav>ul>li>a:hover {
 /* serviços */
 
 #servicos {
-    background-color: #0042bd;
+    background-color: var(--azul);
 }
 
 #servicos>h1 {
